@@ -4,7 +4,8 @@ int add(int a,int b){
     cout<<"1"<<endl;
     return(a+b);
 }
-double add(double a,double b){
+double add(double a,double b)
+{
     cout<<"2"<<endl;
     return(a+b);
 }
