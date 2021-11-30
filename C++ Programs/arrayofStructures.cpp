@@ -3,7 +3,7 @@
 using namespace std;
 struct person
 {
-    string name;
+    string name; 
     int age;
     double salary;
 };

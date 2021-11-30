@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     
     int option;
-    cout<<"choose the oprations to perform from the list below :"<<endl<<"1. Add"<<endl << "2. Substract" << endl << "3. Multiplication" << endl;
+    cout<<"choose the oprations to perform from the list below : "<<endl<<"1. Add"<<endl << "2. Substract" << endl << "3. Multiplication" << endl;
     
     cin >> option;
     
