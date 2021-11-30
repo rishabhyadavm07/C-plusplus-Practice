@@ -6,7 +6,7 @@ int main(){
 
     int size;
     int *ptr;
-    cout<<"Enter the number of inputs you want to give: "<<endl;
+    cout<<"Enter the number of inputs you want to give : "<<endl;
     cin>>size;
     ptr = new int[size];
     cout<<"Enter the values you want to store in array : "<<endl;

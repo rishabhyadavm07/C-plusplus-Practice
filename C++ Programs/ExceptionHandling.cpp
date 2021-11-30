@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int numerator,denominator;
     float result;
-    cout<<"Enter numerator and Denominator: "<<endl;
+    cout<<"Enter numerator and Denominator : "<<endl;
     cin>>numerator>>denominator;
     try
     {
