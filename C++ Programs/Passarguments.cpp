@@ -17,11 +17,11 @@ void Passbypointer(int *x,int *y){
 }
 int main(){
     int a=4,b=7;
-    cout<<"Before swapping"<<endl<<"a= "<<a<<endl<<"b= "<<b<<endl;
+    cout<<"Before swapping "<<endl<<"a= "<<a<<endl<<"b= "<<b<<endl;
 
     Passbypointer(&a,&b);
 
-    cout<<"after swapping"<<endl<<"a= "<<a<<endl<<"b= "<<b<<endl;
+    cout<<"after swapping "<<endl<<"a= "<<a<<endl<<"b= "<<b<<endl;
     
     
     
