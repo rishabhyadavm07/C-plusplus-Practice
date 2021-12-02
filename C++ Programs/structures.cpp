@@ -21,7 +21,7 @@ int main(){
     cout<<"Thankyou for entering the details !"<<endl<<endl;
     //printing the details 
     cout<<"Your details:"<<endl;
-    cout<<"Name: "<<p1.name<<endl;
+    cout<<"Name : "<<p1.name<<endl;
     cout<<"Age: "<<p1.age<<endl;
     cout<<"Salary: "<<p1.salary<<endl;
     return 0;
