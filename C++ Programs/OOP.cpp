@@ -31,6 +31,8 @@ void displaydata(){
 }
 int main(){
     
-    
+    Cars car1;
+    car1.setdata("audi","q8","petrol",8.0,2300000);
+    car1.displaydata();
     return 0;
 }
