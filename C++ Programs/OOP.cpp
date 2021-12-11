@@ -18,21 +18,22 @@ void setdata(string cname,string mname, string ftype, float m, double p){
     fuel_type = ftype;
     milage = m;
     price = p;
-}
+};
 void displaydata(){
     cout<<"These are the car properties:"<<endl;
     cout<<"comapny name -"<<company_name<<endl;
-    cout<<model name -<<model_name<<endl;
+    cout<<"model name -"<<model_name<<endl;
     cout<<"fuel type -"<<fuel_type<<endl;
     cout<<"milage -"<<milage<<endl;
     cout<<"price -"<<price<<endl;
     cout<<"ends"<<endl;
 
-}
+};
+};
 int main(){
     
     Cars car1;
-    car1.setdata("audi","q8","petrol",8.0,2300000);
+    car1.setdata("audi","q8","petrol",8.0,2300000); //hardcoding the values instead we can also take input from the users also
     car1.displaydata();
     return 0;
 }
