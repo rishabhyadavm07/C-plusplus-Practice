@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void printmin(int arr[5]);//declaring function
+void printmin(int arr[5]);
 int main(){
     int arr1[5]={1,3,5,7,9};//declaring array1
     int arr2[5]={2,4,6,8,0};//declaring array2
